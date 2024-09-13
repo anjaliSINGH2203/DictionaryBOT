@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>botFORD</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <exec.mainClass>com.mycompany.botford.BotFORD</exec.mainClass>
+    </properties>
+    
+    <dependencies>
+    <!-- HttpClient for making HTTP requests -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.13</version> <!-- Check for the latest version -->
+    </dependency>
+    
+    <!-- JSON handling library -->
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20210307</version> <!-- Check for the latest version -->
+    </dependency>
+</dependencies>
+
+</project>
